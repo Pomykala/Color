@@ -14,14 +14,23 @@ This program is a library of functions that give us useful information about the
   -  Use Math.Round() to help provide an accurate percent to one decimal place. [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)
   -  Ex: 0.3456 ----> 34.6% Do not include the percent sign in your function, just the number.
 
-### Complement Function
 
+### Brightness
 Background information: Black is the absence of color while white is all colors full-throttle. With numbers this means that the rgb codes for black and white are `[0,0,0]` and `[255,255,255]` respectfully.
 
-  -  The complement of a color is what will make that specific color add to white. So if c =`[100,150,200]`, then c's complement is `[155,105,55]`
+  -  Create a new variable named bright.
+  -  Bright should be equal to the average intensity of rgb: The sum of all three intensities divided by 3.
+  -  Return the value bright;
+
+
+### Complement Function
+
+  -  The complement of a color is what will make that specific color add to white.
+     So if c =`[100,150,200]`, then c's complement is `[155,105,55]`
   -  Create an empty array named comp.
   -  Make a for loop that runs 3 times and pushes the complement of R, G, and B
   -  Return the comp array.
+
 
 ### Extra Challenge: Grey Scale Function
 
